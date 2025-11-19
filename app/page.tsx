@@ -7,7 +7,7 @@ export default function Home() {
       <header>
         <Header />
       </header>
-      <main className="">
+      <main className="max-w-[100rem] mx-auto">
         <div className="lg:pt-5 xl:pt-10">
           <Hero />
         </div>

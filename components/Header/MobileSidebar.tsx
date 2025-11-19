@@ -46,6 +46,7 @@ export default function MobileSidebar() {
                 <a
                   key={item.name}
                   href={item.href}
+                  onClick={onClick}
                   className="text-2xl lg:text-3xl uppercase hover:scale-105 transition-transform duration-200"
                 >
                   {item.name}
