@@ -46,13 +46,13 @@ export default function MobileSidebar() {
                 <a
                   key={item.name}
                   href={item.href}
-                  className="text-2xl uppercase hover:scale-105 transition-transform duration-200"
+                  className="text-2xl lg:text-3xl uppercase hover:scale-105 transition-transform duration-200"
                 >
                   {item.name}
                 </a>
               ))}
-              <div className="max-w-[160px] pt-10 text-center">
-                <span className="font-renjanis text-[35px] lg:text-[53px] tracking-wide leading-10">
+              <div className="max-w-[160px] lg:max-w-[250px] pt-10 text-center">
+                <span className="font-renjanis text-[35px] lg:text-[50px] tracking-wide leading-10 lg:leading-14">
                   Clean Girl Esthetics
                 </span>
               </div>

@@ -1,16 +1,22 @@
+import DesktopNav from "./DesktopNav";
 import MobileSidebar from "./MobileSidebar";
 
 export default function Header() {
   return (
-    <header className="sticky top-0 z-[100] h-fit flex items-center justify-between mx-3 my-4 lg:m-8 bg-white">
+    <div className="sticky top-0 z-[100] h-fit flex items-center justify-between my-4 bg-white">
       <div>
-        <span className="font-renjanis text-[26px] lg:text-[53px] tracking-wide">
-          Clean Girl Esthetics
-        </span>
+        <a href="#home" className="cursor-pointer">
+          <span className="font-renjanis text-[26px] lg:text-5xl tracking-wide">
+            Clean Girl Esthetics
+          </span>
+        </a>
       </div>
       <div className="xl:hidden">
         <MobileSidebar />
       </div>
-    </header>
+      <div className="hidden xl:flex">
+        <DesktopNav />
+      </div>
+    </div>
   );
 }

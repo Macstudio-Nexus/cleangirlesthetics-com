@@ -10,6 +10,8 @@
   --color-brown: #5d4c40;
 }
 
+@custom-variant hover (&:hover);
+
 @layer components {
   .container {
     @apply m-1;
