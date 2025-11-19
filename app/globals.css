@@ -13,7 +13,7 @@
 @custom-variant hover (&:hover);
 
 @layer components {
-  .container {
-    @apply m-1;
+  .button {
+    @apply font-outfit px-3 py-1 lg:py-3 lg:px-5 text-xl md:text-3xl;
   }
 }

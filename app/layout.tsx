@@ -75,7 +75,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${renjanis.variable} ${outfit.variable} antialiased bg-white`}
+        className={`${renjanis.variable} ${outfit.variable} antialiased bg-white mx-3 mt-3 lg:mx-8 lg:mt-8 xl:mx-14 mb-40`}
       >
         {children}
       </body>
