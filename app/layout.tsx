@@ -1,16 +1,17 @@
 import type { Metadata } from "next";
-import { Dancing_Script, Prata } from "next/font/google";
+import { Outfit } from "next/font/google";
+import localFont from "next/font/local";
 import "./globals.css";
 
-const dancingScript = Dancing_Script({
-  variable: "--font-dancing-script",
-  subsets: ["latin"],
+const renjanis = localFont({
+  src: "../public/fonts/Renjanis-Regular.ttf",
+  variable: "--font-renjanis",
+  display: "swap",
 });
 
-const prata = Prata({
-  variable: "--font-prata",
+const outfit = Outfit({
+  variable: "--font-outfit",
   subsets: ["latin"],
-  weight: "400",
 });
 
 export const metadata: Metadata = {
@@ -74,7 +75,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${dancingScript.variable} ${prata.variable} antialiased`}
+        className={`${renjanis.variable} ${outfit.variable} antialiased bg-white`}
       >
         {children}
       </body>

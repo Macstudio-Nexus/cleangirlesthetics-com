@@ -1,13 +1,13 @@
 @import "tailwindcss";
 
 @theme inline {
-  --font-dancing-script: 'Dancing Script', cursive;
-  --font-prata: 'Prata', serif;
+  --font-renjanis: "Renjanis", cursive;
+  --font-outfit: "Outfit", sans-serif;
 
-  --color-bg: #F0FFFE;
-  --color-sage: #335C45;
-  --color-sage-light: #488462;
-  --color-accent: #2E282A;
+  --color-white: #faf3eb;
+  --color-sage: #717952;
+  --color-text: #23231f;
+  --color-brown: #5d4c40;
 }
 
 @layer components {
