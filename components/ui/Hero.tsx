@@ -33,7 +33,7 @@ export default function Hero() {
           where clean beauty meets confidence
         </h1>
         <h2 className="!font-outfit text-xl/5 md:text-[26px]/7 lg:text-[26px]/8 xl:text-[32px]/10 2xl:text-[40px]/14 md:max-w-[400px] xl:max-w-[600px] 2xl:max-w-[900px] ">
-          Relax, refresh, and embrace your natural beauty with our tailored
+          Relax, refresh and embrace your natural beauty with our tailored
           treatments for every skin type
         </h2>
         <div className="flex flex-col lg:flex-row items-start justify-center gap-2">

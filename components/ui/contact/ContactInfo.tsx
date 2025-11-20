@@ -12,8 +12,8 @@ export default function ContactInfo() {
         </p>
       </div>
       <div className="flex items-center gap-5">
-        <Phone className="size-6 lg:size-8" />
-        <a href="tel:+17185145857">
+        <Phone className="size-6 lg:size-8 " />
+        <a className="hover:text-white" href="tel:+17185145857">
           <p>+1 (718)-514-5857</p>
         </a>
       </div>

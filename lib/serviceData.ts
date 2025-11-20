@@ -10,7 +10,7 @@ export const services: Service[] = [
   },
   {
     title: "Facials",
-    text: "Refresh and rejuvenate your skin with personalized facials tailored to your needs. From deep cleansing to hydration and brightening, each treatment is designed to leave your skin smooth, healthy, and glowing. Whether you’re looking to relax, treat breakouts, or maintain a consistent skincare routine, our facials provide the perfect blend of results and relaxation.",
+    text: "Refresh and rejuvenate your skin with personalized facials tailored to your needs. From deep cleansing to hydration and brightening, each treatment is designed to leave your skin smooth, healthy, and glowing. Whether you’re looking to relax, treat breakouts or maintain a consistent skincare routine, our facials provide the perfect blend of results and relaxation.",
   },
   {
     title: "Waxing",
