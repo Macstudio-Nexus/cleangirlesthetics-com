@@ -7,6 +7,7 @@ import menu from "@/public/Icons/Menu.svg";
 import x from "@/public/Icons/X.svg";
 import Image from "next/image";
 import { navItems } from "@/lib/nav";
+import Link from "next/link";
 
 export default function MobileSidebar() {
   const [isShowing, setIsShowing] = useState(false);
@@ -43,15 +44,22 @@ export default function MobileSidebar() {
             </div>
             <div className="flex flex-col items-center justify-center gap-10 font-outfit pt-10">
               {navItems.map((item) => (
-                <a
+                <Link
                   key={item.name}
                   href={item.href}
                   onClick={onClick}
-                  className="text-2xl lg:text-3xl uppercase hover:scale-105 transition-transform duration-200"
+                  className="text-2xl lg:text-3xl uppercase hover:text-brown"
                 >
                   {item.name}
-                </a>
+                </Link>
               ))}
+              <a
+                href="http://www.glymedplus.com/store/8790767440206"
+                target="_blank"
+                className="text-2xl lg:text-3xl uppercase hover:scale-105 transition-transform duration-200"
+              >
+                SHOP
+              </a>
               <div className="max-w-[160px] lg:max-w-[250px] pt-10 text-center">
                 <span className="font-renjanis text-[35px] lg:text-[50px] tracking-wide leading-10 lg:leading-14">
                   Clean Girl Esthetics
