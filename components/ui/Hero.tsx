@@ -32,10 +32,10 @@ export default function Hero() {
         <h1 className="text-[42px]/10 md:text-[64px]/14 lg:text-[64px]/16 xl:text-[85px]/20 2xl:text-[128px]/30 font-renjanis capitalize md:max-w-[550px] xl:max-w-[750px] 2xl:max-w-[1200px]">
           where clean beauty meets confidence
         </h1>
-        <p className="text-xl/5 md:text-[26px]/7 lg:text-[26px]/8 xl:text-[32px]/10 2xl:text-[40px]/14 md:max-w-[400px] xl:max-w-[600px] 2xl:max-w-[900px]  font-outfit">
+        <h2 className="!font-outfit text-xl/5 md:text-[26px]/7 lg:text-[26px]/8 xl:text-[32px]/10 2xl:text-[40px]/14 md:max-w-[400px] xl:max-w-[600px] 2xl:max-w-[900px] ">
           Relax, refresh, and embrace your natural beauty with our tailored
           treatments for every skin type
-        </p>
+        </h2>
         <div className="flex flex-col lg:flex-row items-start justify-center gap-2">
           <Primary
             text="BOOK NOW"

@@ -1,8 +1,17 @@
 import { buttonProps } from "@/lib/type";
 
-export default function Secondary({ text, link }: buttonProps) {
+interface SecondaryProps extends buttonProps {
+  color?: boolean;
+}
+
+export default function Secondary({ text, link, color = true }: SecondaryProps) {
   return (
-    <a href={link} className="bg-transparent text-sage border border-sage button">
+    <a
+      href={link}
+      className={`bg-transparent border button ${
+        color ? "text-sage border-sage" : "text-white border-white"
+      }`}
+    >
       {text}
     </a>
   );

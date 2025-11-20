@@ -1,4 +1,5 @@
 import Header from "@/components/Header/Header";
+import About from "@/components/ui/About";
 import Hero from "@/components/ui/Hero";
 
 export default function Home() {
@@ -11,6 +12,7 @@ export default function Home() {
         <div className="lg:pt-5 xl:pt-10">
           <Hero />
         </div>
+        <About />
       </main>
     </>
   );
