@@ -43,7 +43,7 @@ export default function About() {
           welcoming space dedicated to your self-care.
         </p>
         <Secondary
-          text="Book Now"
+          text="BOOK NOW"
           link="https://book.heygoldie.com/Cleangirlesthetics/checkout"
           color={false}
         />

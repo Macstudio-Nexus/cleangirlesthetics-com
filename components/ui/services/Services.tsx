@@ -5,7 +5,7 @@ export default function Services() {
   return (
     <section
       id="services"
-      className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 place-items-center md:max-w-[625px] xl:max-w-full  mx-auto gap-4 my-6 scroll-mt-5"
+      className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 place-items-center md:max-w-[625px] xl:max-w-full  mx-auto gap-4 mt-6 scroll-mt-5"
     >
       {services.map((service) => (
         <ServiceCard
