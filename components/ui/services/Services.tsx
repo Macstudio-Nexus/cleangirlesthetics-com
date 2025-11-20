@@ -1,15 +1,19 @@
 import ServiceCard from "./ServiceCard";
+import { services } from "@/lib/serviceData";
 
 export default function Services() {
   return (
     <section
       id="services"
-      className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 place-items-center"
+      className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 place-items-center md:max-w-[625px] xl:max-w-full max-h-[300px] mx-auto gap-4 mt-6 scroll-mt-5"
     >
-      <ServiceCard
-        text="Enhance your natural beauty with customized lashes designed to fit your style. Whether you prefer the subtle definition of classic lashes, the fuller textured look of hybrids, or the low-maintenance lift and color of a lash lift & tint, each service is tailored to highlight your eyes and elevate your everyday confidence."
-        title="Lashes"
-      />
+      {services.map((service) => (
+        <ServiceCard
+          key={service.title}
+          title={service.title}
+          text={service.text}
+        />
+      ))}
     </section>
   );
 }

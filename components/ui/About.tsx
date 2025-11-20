@@ -7,7 +7,7 @@ export default function About() {
   return (
     <section
       id="about"
-      className="relative w-full h-[875px] md:h-[600px] lg:h-[750px] xl:h-[900px] 2xl:h-[1250px] overflow-hidden grid"
+      className="relative w-full h-[875px] md:h-[600px] lg:h-[750px] xl:h-[900px] 2xl:h-[1250px] overflow-hidden grid mt-4"
     >
       {/* Background - behind everything */}
       <Image
