@@ -1,6 +1,7 @@
 import Footer from "@/components/Footer";
 import Header from "@/components/Header/Header";
 import About from "@/components/ui/About";
+import Contact from "@/components/ui/contact/Contact";
 import Hero from "@/components/ui/Hero";
 import Services from "@/components/ui/services/Services";
 
@@ -16,6 +17,7 @@ export default function Home() {
         </div>
         <About />
         <Services />
+        <Contact />
       </main>
       <footer>
         <Footer />
