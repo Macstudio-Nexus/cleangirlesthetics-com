@@ -8,6 +8,7 @@
   --color-sage: #717952;
   --color-text: #23231f;
   --color-brown: #5d4c40;
+  --color-gray: #B4BCC2;
 }
 
 @custom-variant hover (&:hover);

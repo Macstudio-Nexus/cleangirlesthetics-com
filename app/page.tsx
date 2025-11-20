@@ -1,3 +1,4 @@
+import Footer from "@/components/Footer";
 import Header from "@/components/Header/Header";
 import About from "@/components/ui/About";
 import Hero from "@/components/ui/Hero";
@@ -9,13 +10,16 @@ export default function Home() {
       <header>
         <Header />
       </header>
-      <main className="max-w-[100rem] mx-auto">
-        <div className="lg:pt-5 xl:pt-10">
+      <main className="max-w-[110rem] 2xl:mx-auto mx-3 md:mx-14">
+        <div className="lg:pt-3">
           <Hero />
         </div>
         <About />
         <Services />
       </main>
+      <footer>
+        <Footer />
+      </footer>
     </>
   );
 }
