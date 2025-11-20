@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Outfit } from "next/font/google";
 import localFont from "next/font/local";
 import "./globals.css";
+import BackToTop from "@/components/ui/BackToTop";
 
 const renjanis = localFont({
   src: "../public/fonts/Renjanis-Regular.ttf",
@@ -78,6 +79,7 @@ export default function RootLayout({
         className={`${renjanis.variable} ${outfit.variable} antialiased bg-white mx-3 mt-3 lg:mx-8 lg:mt-8 xl:mx-14 mb-40`}
       >
         {children}
+        <BackToTop />
       </body>
     </html>
   );
