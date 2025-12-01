@@ -7,7 +7,7 @@ export default function Contact() {
 
     return (
         <section id="contact" className="w-full my-4">
-            <div className="flex flex-col lg:flex-row-reverse items-center justify-center md:gap-2 xl:gap-10 lg:h-[500px] xl:h-[700px] 2xl:h-[700px]">
+            <div className="flex flex-col lg:flex-row-reverse items-center justify-center md:gap-2 xl:gap-10 lg:h-[500px] xl:h-[700px] 2xl:h-[700px] my-8">
                 <div className="max-w-[400px] xl:max-w-[550px] h-[450px] xl:self-start grid mt-4">
                     <Image 
                         src={largeImage} 

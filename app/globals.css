@@ -30,4 +30,11 @@ p {
   .button {
     @apply font-outfit px-3 py-1 lg:py-2 lg:px-5 text-xl md:text-2xl 2xl:px-5 2xl:py-2 2xl:text-3xl;
   }
+   .full-shadow {
+    @apply hover:shadow-[0_0_6px_rgba(0,0,0,0.7)];
+  }
+  .button-click {
+    @apply active:scale-95;
+  }
+
 }
