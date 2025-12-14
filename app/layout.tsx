@@ -33,7 +33,7 @@ export const metadata: Metadata = {
     siteName: 'Clean Girl Esthetics',
     images: [
       {
-        url: '/favicon.svg',
+        url: '/favicon.ico',
         width: 1200,
         height: 630,
         alt: 'Clean Girl Esthetics - Professional Beauty Services in Staten Island',
